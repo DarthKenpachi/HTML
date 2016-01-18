@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head lang="en-US">
+	<meta charset="utf-8">
+	<title>Layout your Website</title>
+	<link rel="stylesheet" type="text/css" href="style2.css"/>
+	
+	<style type="text/css">
+		
+	</style>
+</head>
+
+<body>
+	<div id="big_wrapper"><!--use div tag to surround entire main content to style entire site-->
+		<header id="top_header">
+			<h1>WELCOME TO MY WEBSITE</h1>
+		</header><!--header of website-->
+		
+		<nav id="top_menu">
+			<ul>
+				<li>Home</li>
+				<li>Tutorial</li>
+				<li>Grateful Moments</li>
+			</ul>
+		</nav><!--navigation bar-->
+		
+		<section id="main_section">
+			<article>
+				<header>
+					<hgroup>
+						<h1>Title of Article</h1>
+						<h2>Subtitle of Article</h2>
+					</hgroup><!--header group-->
+				</header><!--section header-->
+				<p>Here is some filler text for my article.  Although this is very basic, we all begin somewhere...</p>
+				<footer>
+					<p>-Developed by Tai Scott</p>
+				</footer><!--section footer-->
+			</article><!--article-->
+		</section><!--section-->
+
+		<aside id="side_news">
+			<h4>News</h4>
+			Breaking story of awesome 360 flips at 8!
+		</aside>
+		
+		<footer id="the_footer">
+			Copyright M5B10 2015
+		</footer><!--footer of body-->
+	</div>
+</body>
+</html>
