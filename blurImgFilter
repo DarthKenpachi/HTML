@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>Blur Img Filter</title>
+<meta charset="utf-8"/>
+<style>
+img {
+	-webkit-filter: blur(5px); /*Chrome, Safari, Opera*/
+	filter: blur(5px);
+}
+</style>
+
+</head>
+<body>
+
+<p>Apply a simple blur effect to the image:</p>
+
+<img src="leilah.jpg" alt="Princess Leia, Gold Bikini" width="300" height="300">
+
+<p><strong>Note:</strong> The filter property is not supported by IE...I wonder why?</p>
+
+
+</body>
+</html>
