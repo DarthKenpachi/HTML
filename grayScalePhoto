@@ -1,0 +1,24 @@
+<!doctype>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Grayscale Img Filter</title>
+<style>
+img {
+	-webkit-filter: grayscale(100%); /*Chrome, Safari, Opera*/
+	filter: grayscale(100%);
+}
+
+</style>
+</head>
+<body>
+
+<p>Simple grayscale image conversion</p>
+<img src="leilah.jpg" alt="Princess Leia, Gold Bikini" width="300" height="300">
+
+
+<p><strong>Note:</strong> The filter property is not supported in IE...much like everything else. ^_^</p>
+
+</body>
+
+</html>
